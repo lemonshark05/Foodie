@@ -20,10 +20,12 @@ struct LoginView: View {
             VStack {
                 GeometryReader { geometry in
                     VStack(alignment: .leading) {
-                        Text("Log in")
-                            .fontWeight(.bold)
-                            .font(.system(size: 50))
-                            .padding(.bottom, 20)
+                        Image("login")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(minHeight: 50, maxHeight: 60)
+                            .padding(.leading, 0)
+                            .padding(.bottom, 10)
                         
                         TextField("Email", text: $email)
                             .font(.subheadline)

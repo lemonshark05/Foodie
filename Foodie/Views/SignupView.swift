@@ -17,10 +17,12 @@ struct SignupView: View {
         GeometryReader { geometry in
             VStack {
                 VStack(alignment: .leading) {
-                    Text("Sign up")
-                        .fontWeight(.bold)
-                        .font(.system(size: 50))
-                        .padding(.bottom, 20)
+                    Image("signup")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(minHeight: 50, maxHeight: 60)
+                        .padding(.leading, 0)
+                        .padding(.bottom, 10)
                     
                     TextField("Username", text: $username)
                         .font(.subheadline)

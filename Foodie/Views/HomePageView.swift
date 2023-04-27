@@ -10,18 +10,22 @@ import SwiftUI
 struct HomePageView: View {
     var body: some View {
         ZStack {
-            Image("1")
+            Image("background")
                 .resizable()
                 .scaledToFill()
                 .edgesIgnoringSafeArea(.all)
             
+            Color.gray
+                .opacity(0.3)
+                .edgesIgnoringSafeArea(.all)
+            
             VStack {
                 Spacer()
-                Text("Welcome to My App")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                    .padding()
+                Image("Foodie")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(maxWidth: 250, maxHeight: 250)
+                    .padding(.bottom, 50)
                 
                 Spacer()
                 
@@ -59,7 +63,7 @@ struct HomePageView: View {
                     }
                 }
                 .padding(.horizontal, 20)
-                .padding(.bottom, 20)
+                .padding(.bottom, 50)
             }
         }
     }
