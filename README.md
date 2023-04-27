@@ -107,7 +107,11 @@ Completed with figma. Visit: [Figma](https://www.figma.com/file/eJfL7WNLPKEzBeor
 
 ### This is not due until the following week: 
 ## Schema 
-[This section will be completed in Unit 9]
+
+
+https://user-images.githubusercontent.com/100770743/234740763-a83915cb-8cec-45a8-b6f8-0785078e26a7.mp4
+
+
 ### Models
 [Add table of models]
 ### Networking
