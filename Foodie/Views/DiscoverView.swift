@@ -9,8 +9,36 @@ import SwiftUI
 
 struct DiscoverView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("Discover")
+            .fontWeight(.bold)
+            .font(.system(size: 50))
+            .padding(.bottom, 40)
+
+            Text("WHAT’S NEW DISHES TODAY")
+            .fontWeight(.bold)
+            .font(.footnote)
+            .tracking(0.52)
+            .padding(.bottom, 40)
+
+            DiscoverCellView()
+
+            Text("SEE MORE")
+            .fontWeight(.black)
+            .font(.footnote)
+            .padding(.top, 19)
+            .padding(.bottom, 18)
+            .frame(width: 343, height: 52)
+            .cornerRadius(6)
+            .overlay(RoundedRectangle(cornerRadius: 6).stroke(Color(red: 0.29, green: 0.17, blue: 0.07), lineWidth: 2))
+            .frame(width: 343, height: 52)
+        }
     }
+}
+struct Dish: Identifiable {
+    let id: Int
+    let title: String
+    let user: String
 }
 
 struct DiscoverView_Previews: PreviewProvider {
