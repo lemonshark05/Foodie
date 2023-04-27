@@ -25,6 +25,10 @@
 		D97D956029F9CDEE00A6E5AA /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D955F29F9CDEE00A6E5AA /* DiscoverView.swift */; };
 		D97D956229F9EFEA00A6E5AA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D956129F9EFEA00A6E5AA /* SearchView.swift */; };
 		D97D956429F9F02C00A6E5AA /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D956329F9F02C00A6E5AA /* RestaurantView.swift */; };
+		D97D956629FA024600A6E5AA /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D956529FA024600A6E5AA /* SignupController.swift */; };
+		D97D956829FA026E00A6E5AA /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D956729FA026E00A6E5AA /* UserController.swift */; };
+		D97D956A29FA027E00A6E5AA /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D956929FA027E00A6E5AA /* Restaurant.swift */; };
+		D97D956C29FA02C200A6E5AA /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D956B29FA02C200A6E5AA /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +70,10 @@
 		D97D955F29F9CDEE00A6E5AA /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 		D97D956129F9EFEA00A6E5AA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		D97D956329F9F02C00A6E5AA /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		D97D956529FA024600A6E5AA /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		D97D956729FA026E00A6E5AA /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		D97D956929FA027E00A6E5AA /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		D97D956B29FA02C200A6E5AA /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +172,7 @@
 				D97D955F29F9CDEE00A6E5AA /* DiscoverView.swift */,
 				D97D956129F9EFEA00A6E5AA /* SearchView.swift */,
 				D97D956329F9F02C00A6E5AA /* RestaurantView.swift */,
+				D97D956B29FA02C200A6E5AA /* StartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +181,9 @@
 			isa = PBXGroup;
 			children = (
 				D96EA04729F8A2AD00B45D6A /* LoginController.swift */,
+				D97D956529FA024600A6E5AA /* SignupController.swift */,
+				D97D956729FA026E00A6E5AA /* UserController.swift */,
+				D97D956929FA027E00A6E5AA /* Restaurant.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -306,17 +318,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97D956C29FA02C200A6E5AA /* StartView.swift in Sources */,
 				D97D955E29F9CDE100A6E5AA /* DiscoverCellView.swift in Sources */,
 				D96EA04529F8A21000B45D6A /* SignupView.swift in Sources */,
 				D96EA01A29F8A18300B45D6A /* Persistence.swift in Sources */,
 				D97D956429F9F02C00A6E5AA /* RestaurantView.swift in Sources */,
+				D97D956A29FA027E00A6E5AA /* Restaurant.swift in Sources */,
 				D96EA01D29F8A18300B45D6A /* Foodie.xcdatamodeld in Sources */,
 				D97D956229F9EFEA00A6E5AA /* SearchView.swift in Sources */,
 				D96EA01329F8A18100B45D6A /* ContentView.swift in Sources */,
 				D96EA04129F8A1BF00B45D6A /* LoginView.swift in Sources */,
 				D96EA04829F8A2AD00B45D6A /* LoginController.swift in Sources */,
+				D97D956629FA024600A6E5AA /* SignupController.swift in Sources */,
 				D96EA04329F8A1EF00B45D6A /* HomePageView.swift in Sources */,
 				D96EA01129F8A18100B45D6A /* FoodieApp.swift in Sources */,
+				D97D956829FA026E00A6E5AA /* UserController.swift in Sources */,
 				D96EA04A29F8A2D500B45D6A /* RolePageView.swift in Sources */,
 				D97D956029F9CDEE00A6E5AA /* DiscoverView.swift in Sources */,
 			);

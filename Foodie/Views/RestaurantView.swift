@@ -30,13 +30,13 @@ struct RestaurantView: View {
             Ellipse()
                 .fill(Color.clear) // Use clear color so the image will be visible
                 .overlay(
-                    Image("01") // Replace "01" with the name of your image asset
+                    Image("Sushi") // Replace "01" with the name of your image asset
                         .resizable()
                         .scaledToFill()
                         .frame(width: 160, height: 160)
                         .clipShape(Ellipse())
                 )
-                .offset(x: 0.50, y: -250)
+                .offset(x: 0.50, y: -260)
 
             Text("Sushi Gen")
                 .font(.largeTitle)
