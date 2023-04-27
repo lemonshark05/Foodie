@@ -9,20 +9,20 @@ import SwiftUI
 
 struct DiscoverView: View {
     var body: some View {
-        VStack{
-            Text("Discover")
-            .fontWeight(.bold)
-            .font(.system(size: 50))
-            .padding(.bottom, 40)
-
-            Text("WHAT’S NEW DISHES TODAY")
-            .fontWeight(.bold)
-            .font(.footnote)
-            .tracking(0.52)
-            .padding(.bottom, 40)
-
+        VStack(alignment: .leading){
+            Image("discover")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(minHeight: 80, maxHeight: 90)
+                .padding(.top, 20)
+                .padding(.bottom, 10)
+            
+            Spacer()
+            
             DiscoverCellView()
-
+            
+            Spacer()
+            
             Text("SEE MORE")
             .fontWeight(.black)
             .font(.footnote)
