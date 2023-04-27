@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90D3A6B29FAF194003FE147 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D3A6A29FAF194003FE147 /* AddView.swift */; };
+		D90D3A6D29FAF28E003FE147 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D3A6C29FAF28E003FE147 /* UserView.swift */; };
 		D96EA01129F8A18100B45D6A /* FoodieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EA01029F8A18100B45D6A /* FoodieApp.swift */; };
 		D96EA01329F8A18100B45D6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EA01229F8A18100B45D6A /* ContentView.swift */; };
 		D96EA01529F8A18300B45D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96EA01429F8A18300B45D6A /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D90D3A6A29FAF194003FE147 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		D90D3A6C29FAF28E003FE147 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		D96EA00D29F8A18100B45D6A /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96EA01029F8A18100B45D6A /* FoodieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodieApp.swift; sourceTree = "<group>"; };
 		D96EA01229F8A18100B45D6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 				D97D956129F9EFEA00A6E5AA /* SearchView.swift */,
 				D97D956329F9F02C00A6E5AA /* RestaurantView.swift */,
 				D97D956B29FA02C200A6E5AA /* StartView.swift */,
+				D90D3A6A29FAF194003FE147 /* AddView.swift */,
+				D90D3A6C29FAF28E003FE147 /* UserView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -320,6 +326,8 @@
 			files = (
 				D97D956C29FA02C200A6E5AA /* StartView.swift in Sources */,
 				D97D955E29F9CDE100A6E5AA /* DiscoverCellView.swift in Sources */,
+				D90D3A6B29FAF194003FE147 /* AddView.swift in Sources */,
+				D90D3A6D29FAF28E003FE147 /* UserView.swift in Sources */,
 				D96EA04529F8A21000B45D6A /* SignupView.swift in Sources */,
 				D96EA01A29F8A18300B45D6A /* Persistence.swift in Sources */,
 				D97D956429F9F02C00A6E5AA /* RestaurantView.swift in Sources */,
