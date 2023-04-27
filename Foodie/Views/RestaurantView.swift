@@ -24,7 +24,7 @@ struct RestaurantView: View {
                 }
             }
             .ignoresSafeArea()
-            .offset(x: 0, y: 107)
+            .offset(x: 0, y: 110)
             .frame(height: 216)
             
             Ellipse()
@@ -33,20 +33,25 @@ struct RestaurantView: View {
                     Image("Sushi") // Replace "01" with the name of your image asset
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 160, height: 160)
+                        .frame(width: 180, height: 180)
                         .clipShape(Ellipse())
                 )
-                .offset(x: 0.50, y: -260)
+                .offset(x: 0.50, y: -280)
 
             Text("Sushi Gen")
                 .font(.largeTitle)
-                .offset(x: 0.50, y: -150)
+                .offset(x: 0.50, y: -160)
 
             Text("LOS ANGELES, CA")
                 .fontWeight(.black)
                 .font(.footnote)
                 .tracking(0.52)
-                .offset(x: 0, y: -106.50)
+                .offset(x: 0, y: -120)
+            
+            StartView(score: 3)
+                .frame(width: 200, height: 50) // Resize StartView
+                .tracking(0.52)
+                .offset(x: 0, y: -90)
 
             Text("BOOKMARK")
                 .fontWeight(.black)
@@ -60,7 +65,7 @@ struct RestaurantView: View {
                     RoundedRectangle(cornerRadius: 6)
                         .stroke(Color(red: 0.99, green: 0.79, blue: 0.49), lineWidth: 2)
                 )
-                .offset(x: 0, y: -41)
+                .offset(x: 0, y: -40)
         }
         .frame(width: 375, height: 667)
     }
