@@ -31,7 +31,7 @@ struct HomePageView: View {
                 
                 HStack(spacing: 20) {
                     NavigationLink(destination: LoginView()) {
-                        Text("Login")
+                        Text("LOG IN")
                             .fontWeight(.bold)
                             .font(.system(size: 24))
                             .tracking(0.52)
@@ -41,13 +41,13 @@ struct HomePageView: View {
                             .padding(.bottom, 18)
                             .frame(maxWidth: 150)
                             .foregroundColor(.black)
-                            .background(Color(red: 1, green: 0.79, blue: 0.48))
+                            .background(Color.white)
                             .cornerRadius(6)
-                            .overlay(RoundedRectangle(cornerRadius: 6).stroke(Color(red: 1, green: 0.79, blue: 0.48), lineWidth: 2))
+                            .overlay(RoundedRectangle(cornerRadius: 6).stroke(Color(red: 1, green: 1, blue: 1), lineWidth: 2))
                     }
                     
                     NavigationLink(destination: SignupView()) {
-                        Text("Sign Up")
+                        Text("SIGN UP")
                             .fontWeight(.bold)
                             .font(.system(size: 24))
                             .tracking(0.52)
@@ -56,7 +56,7 @@ struct HomePageView: View {
                             .padding(.top, 19)
                             .padding(.bottom, 18)
                             .frame(maxWidth: 150)
-                            .foregroundColor(.black)
+                            .foregroundColor(.white)
                             .background(Color(red: 1, green: 0.79, blue: 0.48))
                             .cornerRadius(6)
                             .overlay(RoundedRectangle(cornerRadius: 6).stroke(Color(red: 1, green: 0.79, blue: 0.48), lineWidth: 2))

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D90D3A6B29FAF194003FE147 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D3A6A29FAF194003FE147 /* AddView.swift */; };
 		D90D3A6D29FAF28E003FE147 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D3A6C29FAF28E003FE147 /* UserView.swift */; };
+		D90D3A6F29FB13CE003FE147 /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D3A6E29FB13CE003FE147 /* AddController.swift */; };
+		D90D3A7129FB13E4003FE147 /* DiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D3A7029FB13E4003FE147 /* DiscoverController.swift */; };
 		D96EA01129F8A18100B45D6A /* FoodieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EA01029F8A18100B45D6A /* FoodieApp.swift */; };
 		D96EA01329F8A18100B45D6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EA01229F8A18100B45D6A /* ContentView.swift */; };
 		D96EA01529F8A18300B45D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96EA01429F8A18300B45D6A /* Assets.xcassets */; };
@@ -53,6 +55,8 @@
 /* Begin PBXFileReference section */
 		D90D3A6A29FAF194003FE147 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		D90D3A6C29FAF28E003FE147 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		D90D3A6E29FB13CE003FE147 /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		D90D3A7029FB13E4003FE147 /* DiscoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverController.swift; sourceTree = "<group>"; };
 		D96EA00D29F8A18100B45D6A /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96EA01029F8A18100B45D6A /* FoodieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodieApp.swift; sourceTree = "<group>"; };
 		D96EA01229F8A18100B45D6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -190,6 +194,8 @@
 				D97D956529FA024600A6E5AA /* SignupController.swift */,
 				D97D956729FA026E00A6E5AA /* UserController.swift */,
 				D97D956929FA027E00A6E5AA /* RestaurantController.swift */,
+				D90D3A6E29FB13CE003FE147 /* AddController.swift */,
+				D90D3A7029FB13E4003FE147 /* DiscoverController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -332,9 +338,11 @@
 				D96EA01A29F8A18300B45D6A /* Persistence.swift in Sources */,
 				D97D956429F9F02C00A6E5AA /* RestaurantView.swift in Sources */,
 				D97D956A29FA027E00A6E5AA /* RestaurantController.swift in Sources */,
+				D90D3A7129FB13E4003FE147 /* DiscoverController.swift in Sources */,
 				D96EA01D29F8A18300B45D6A /* Foodie.xcdatamodeld in Sources */,
 				D97D956229F9EFEA00A6E5AA /* SearchView.swift in Sources */,
 				D96EA01329F8A18100B45D6A /* ContentView.swift in Sources */,
+				D90D3A6F29FB13CE003FE147 /* AddController.swift in Sources */,
 				D96EA04129F8A1BF00B45D6A /* LoginView.swift in Sources */,
 				D96EA04829F8A2AD00B45D6A /* LoginController.swift in Sources */,
 				D97D956629FA024600A6E5AA /* SignupController.swift in Sources */,
